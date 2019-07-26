@@ -13,7 +13,7 @@ module.exports={
     module:{
         rules:[
             {
-                test:/\.(woff|woff2)$/,
+                test:/\.(eot|ttf|woff|woff2)$/,
                 loader:"url-loader?limit=100000"
             },
             {

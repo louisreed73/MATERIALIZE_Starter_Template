@@ -1,4 +1,6 @@
 // @import '~bootstrap/scss/bootstrap.scss';
+
+@import '~materialize-css/sass/materialize.scss';
 @import '_variables.scss';
 
 
@@ -7,6 +9,18 @@ body {
     color:white;
 }
 
+.modal-trigger {
+    margin:20px auto;
+    display:block;
+}
+#modal1 {
+    color:darkblue;
+}
+
+img {
+    display:block;
+    margin:auto;
+}
 
 
 
